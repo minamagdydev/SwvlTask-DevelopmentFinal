@@ -15,13 +15,14 @@ extension HomeViewController:  UISearchBarDelegate {
             searchArray = movies!
             self.moviesListTableView.reloadData()
         }else {
-            filterTableView( text: searchText)
+            searchArray = viewModel.search(movieName: searchText)
+            moviesListTableView.reloadData()
         }
     }
     
-    func filterTableView(text:String) {
+    /*func filterTableView(text:String) {
         //by Year
-        let sortedArray = movies?.sorted(by: { (Movie1, Movie2) -> Bool in
+        /*let sortedArray = movies?.sorted(by: { (Movie1, Movie2) -> Bool in
             guard let lhsValue = Movie1.year , let rhsValue = Movie2.year else {return false}
             return lhsValue > rhsValue
         })//by rating
@@ -32,10 +33,11 @@ extension HomeViewController:  UISearchBarDelegate {
         })
         searchArray = sortedArrayByRate!.filter({ (mod) -> Bool in
             return mod.title!.lowercased().contains(text.lowercased())
-        })
+        })*/
         
+        searchArray = HomeViewModel.search(movieName: text)
         self.moviesListTableView.reloadData()
         
-    }
+    }*/
     
 }

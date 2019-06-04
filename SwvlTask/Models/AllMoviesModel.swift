@@ -9,17 +9,24 @@
 import Foundation
 
 // MARK: - AllMovies
-struct AllJsonData: Codable {
-    let objects: [Movie]?
-}
+
 
 // MARK: - Movie
-struct Movie: Codable {
+struct Movie: Codable, Equatable {
     let title: String?
     let year: Int?
     let cast: [String]?
     let genres: [Genre]?
     let rating: Int?
+    
+    public static func == (lhs: Movie, rhs: Movie) -> Bool {
+        if lhs.year == rhs.year && lhs.title == rhs.title && lhs.cast == rhs.cast && lhs.rating == rhs.rating && lhs.genres == rhs.genres {
+            return true
+        }
+        else {
+            return false
+        }
+    }
 }
 
 enum Genre: String, Codable {

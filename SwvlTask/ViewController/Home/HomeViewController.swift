@@ -13,6 +13,7 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var moviesListTableView: UITableView!
     @IBOutlet weak var moviesSearchBar: UISearchBar!
     var fileReader: SWVLFileReader!
+    var sorter: swvlSorter = swvlSorter()
     var viewModel: HomeViewModel!
     
     var movies: [Movie]? 
@@ -32,7 +33,7 @@ class HomeViewController: UIViewController {
      
     func getMovies() {
         fileReader = SWVLFileReader(fileName: "all_movies", type: "json")
-        viewModel = HomeViewModel(fileReader: fileReader)
+        viewModel = HomeViewModel(fileReader: fileReader, sorter: sorter)
         viewModel.getMovies(onSuccess: { [weak self]movies in
             self?.movies = movies
             self?.searchArray = movies
