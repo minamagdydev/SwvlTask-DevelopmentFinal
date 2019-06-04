@@ -51,12 +51,37 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Jw-Cs-AU6" customClass="CosmosView" customModule="Cosmos">
+                                                    <rect key="frame" x="125.5" y="68" width="150" height="23.5"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="rating">
+                                                            <real key="value" value="5"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="totalStars">
+                                                            <integer key="value" value="5"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="filledColor">
+                                                            <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="emptyColor">
+                                                            <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="emptyBorderColor">
+                                                            <color key="value" red="1" green="0.14864987099999999" blue="0.090102915409999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </view>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="OPW-Ph-bMm" firstAttribute="centerY" secondItem="GSQ-Zq-flX" secondAttribute="centerY" id="42A-Hv-qBW"/>
                                                 <constraint firstItem="pOy-wY-5xy" firstAttribute="leading" secondItem="3cK-Et-9H2" secondAttribute="leadingMargin" constant="5" id="5mh-cY-Cin"/>
+                                                <constraint firstItem="3Jw-Cs-AU6" firstAttribute="width" secondItem="3cK-Et-9H2" secondAttribute="width" multiplier="0.4" id="9zr-5c-jcb"/>
+                                                <constraint firstItem="3Jw-Cs-AU6" firstAttribute="centerX" secondItem="3cK-Et-9H2" secondAttribute="centerX" multiplier="1.07" id="BY2-8z-Mlf"/>
+                                                <constraint firstItem="3Jw-Cs-AU6" firstAttribute="centerY" secondItem="GSQ-Zq-flX" secondAttribute="centerY" id="Hp2-AY-7gm"/>
                                                 <constraint firstItem="GSQ-Zq-flX" firstAttribute="leading" secondItem="3cK-Et-9H2" secondAttribute="leadingMargin" constant="5" id="JUP-dn-aAf"/>
                                                 <constraint firstItem="GSQ-Zq-flX" firstAttribute="centerY" secondItem="3cK-Et-9H2" secondAttribute="centerY" multiplier="1.5" id="KBb-LF-Ucs"/>
+                                                <constraint firstItem="3Jw-Cs-AU6" firstAttribute="height" secondItem="pOy-wY-5xy" secondAttribute="height" id="ReA-H0-34L"/>
                                                 <constraint firstItem="pOy-wY-5xy" firstAttribute="centerX" secondItem="3cK-Et-9H2" secondAttribute="centerX" id="cJz-kS-gF9"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="OPW-Ph-bMm" secondAttribute="trailing" constant="5" id="fQE-e5-LhT"/>
                                                 <constraint firstItem="pOy-wY-5xy" firstAttribute="centerY" secondItem="3cK-Et-9H2" secondAttribute="centerY" multiplier="0.5" id="ldv-gr-3nP"/>
@@ -64,6 +89,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="cosmosView" destination="3Jw-Cs-AU6" id="uEg-ve-7F4"/>
                                             <outlet property="movieTitle" destination="pOy-wY-5xy" id="sAp-as-PbG"/>
                                             <outlet property="rating" destination="GSQ-Zq-flX" id="gX0-pW-EVd"/>
                                             <outlet property="year" destination="OPW-Ph-bMm" id="bPf-9E-gdM"/>

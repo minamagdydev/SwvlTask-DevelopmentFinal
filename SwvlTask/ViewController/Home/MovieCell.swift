@@ -7,8 +7,9 @@
 //
 
 import UIKit
-
+import Cosmos
 class MovieCell: UITableViewCell {
+    @IBOutlet weak var cosmosView: CosmosView!
     @IBOutlet weak var year: UILabel!
     
     @IBOutlet weak var rating: UILabel!

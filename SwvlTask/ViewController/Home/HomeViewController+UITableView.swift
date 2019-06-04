@@ -22,6 +22,7 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
         }
         if let rating = searchArray![indexPath.row].rating {
             cell?.rating.text = String(rating)
+            cell?.cosmosView.rating = Double(rating)
         }
  
 

@@ -8,8 +8,9 @@
 //
 
 import UIKit
-
+import Cosmos
 class HomeViewController: UIViewController {
+
     @IBOutlet weak var moviesListTableView: UITableView!
     @IBOutlet weak var moviesSearchBar: UISearchBar!
     var fileReader: SWVLFileReader!
