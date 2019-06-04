@@ -106,7 +106,7 @@ class HomeViewModelTests: XCTestCase {
         }
         XCTAssertFalse(onSuccessFalgIsCalled)
     }
-    
+   // MARK: - need edite
     func test_search_findCorrectly() {
         let resultArray = homeViewModel.search(movieName: searchedCharachter)
         XCTAssertEqual(afterSearchArray ,  resultArray)

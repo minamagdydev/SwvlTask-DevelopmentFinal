@@ -31,4 +31,10 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
         let hight = UIScreen.main.bounds.height  * 0.15
         return hight
     }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let newViewController = storyBoard.instantiateViewController(withIdentifier: "DetailsViewController") as! DetailsViewController
+        newViewController.movies = searchArray?[indexPath.row]
+        self.present(newViewController, animated: true, completion:nil)
+    }
 }
