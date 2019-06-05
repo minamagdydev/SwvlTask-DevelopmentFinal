@@ -2,7 +2,7 @@
 //  Constants.swift
 //  SwvlTask
 //
-//  Created by lujin sherif  on 6/5/19.
+//  Created by minamagdy  on 6/5/19.
 //  Copyright © 2019 minamagdy. All rights reserved.
 //
 
@@ -16,6 +16,7 @@ struct StoryboardNames {
 struct ViewControllerIds {
     
     // Main
+    static let HomeViewController = "HomeViewController"
     static let DetailsViewController = "DetailsViewController"
     //MovieCell MainScreen
     static let MovieCell = "MovieCell"

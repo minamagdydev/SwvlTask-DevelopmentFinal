@@ -2,7 +2,7 @@
 //  HomeViewController+UITableView.swift
 //  SwvlTask
 //
-//  Created by lujin sherif  on 6/3/19.
+//  Created by minamagdy  on 6/3/19.
 //  Copyright © 2019 minamagdy. All rights reserved.
 //
 
@@ -43,7 +43,7 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
         {
             newViewController.castVar = cast
         }
-        newViewController.movies = searchArray?[indexPath.row]
+        newViewController.movie = searchArray?[indexPath.row]
         self.present(newViewController, animated: true, completion:nil)
     }
 }

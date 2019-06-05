@@ -2,7 +2,7 @@
 //  HomeviewModel.swift
 //  SwvlTask
 //
-//  Created by lujin sherif  on 6/2/19.
+//  Created by minamagdy  on 6/2/19.
 //  Copyright © 2019 minamagdy. All rights reserved.
 //
 
@@ -11,11 +11,11 @@ import UIKit
 typealias CompletionHandler = ([Photo]) -> Void
 class DetailsViewModel {
     private var photos: [Photo]?
-    func getImages(url: String , completion: @escaping CompletionHandler){
+    func getImages(urlSession: URLSession ,url: String , completion: @escaping CompletionHandler){
         
         let urlStr : String = url.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? ""
         if let PhotoUrl = URL(string: urlStr ){
-            URLSession.shared.dataTask(with: PhotoUrl) { (data, response
+            urlSession.dataTask(with: PhotoUrl) { (data, response
                 , error) in
                 guard let data = data else { return }
                 

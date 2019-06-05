@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SwvlTask/ViewController/Home/HomeViewController+SearchBar.swift"
-            timestampString = "581413658.612161"
+            timestampString = "581438867.933672"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "21"
@@ -26,13 +26,45 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SwvlTask/Sorter/DetailsViewController.swift"
-            timestampString = "581407353.56461"
+            timestampString = "581438867.934303"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "51"
             endingLineNumber = "51"
             landmarkName = "downloadImages()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;SwvlTask.Photo&gt;) -&gt; () in SwvlTask.DetailsViewController.(downloadImages in _9E667A0BF2593198D17A5FB4C994049A)() -&gt; ()"
+                  moduleName = "SwvlTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Lujin/Downloads/SwvlTask-Development%202/SwvlTask/Sorter/DetailsViewController.swift"
+                  timestampString = "581438868.492654"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "279">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Array&lt;SwvlTask.Photo&gt;) -&gt; () in SwvlTask.DetailsViewController.(downloadImages in _9E667A0BF2593198D17A5FB4C994049A)() -&gt; ()"
+                  moduleName = "SwvlTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Lujin/Downloads/SwvlTask-Development%202/SwvlTask/Sorter/DetailsViewController.swift"
+                  timestampString = "581438868.497991"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -42,13 +74,45 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SwvlTask/Sorter/DetailsViewController.swift"
-            timestampString = "581407353.5684381"
+            timestampString = "581438867.93459"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "51"
             endingLineNumber = "51"
             landmarkName = "downloadImages()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;SwvlTask.Photo&gt;) -&gt; () in SwvlTask.DetailsViewController.(downloadImages in _9E667A0BF2593198D17A5FB4C994049A)() -&gt; ()"
+                  moduleName = "SwvlTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Lujin/Downloads/SwvlTask-Development%202/SwvlTask/Sorter/DetailsViewController.swift"
+                  timestampString = "581438868.511277"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "279">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Array&lt;SwvlTask.Photo&gt;) -&gt; () in SwvlTask.DetailsViewController.(downloadImages in _9E667A0BF2593198D17A5FB4C994049A)() -&gt; ()"
+                  moduleName = "SwvlTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Lujin/Downloads/SwvlTask-Development%202/SwvlTask/Sorter/DetailsViewController.swift"
+                  timestampString = "581438868.515377"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -170,45 +234,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SwvlTask/Sorter/DetailsViewController.swift"
-            timestampString = "581407353.569573"
+            timestampString = "581438867.936466"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "46"
             endingLineNumber = "46"
-            landmarkName = "downloadImages()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SwvlTask.DetailsViewController.downloadImages() -&gt; ()"
-                  moduleName = "SwvlTask"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Lujin/Desktop/New%20folder/SwvlTask-Development/SwvlTask/Sorter/DetailsViewController.swift"
-                  timestampString = "581408692.076794"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "46"
-                  endingLineNumber = "46"
-                  offsetFromSymbolStart = "112">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Array&lt;SwvlTask.Photo&gt;) -&gt; () in SwvlTask.DetailsViewController.downloadImages() -&gt; ()"
-                  moduleName = "SwvlTask"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Lujin/Desktop/New%20folder/SwvlTask-Development/SwvlTask/Sorter/DetailsViewController.swift"
-                  timestampString = "581408692.080358"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "46"
-                  endingLineNumber = "46"
-                  offsetFromSymbolStart = "46">
-               </Location>
-            </Locations>
+            landmarkName = "DetailsViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -218,7 +250,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SwvlTask/Sorter/DetailsViewController.swift"
-            timestampString = "581407353.570369"
+            timestampString = "581438867.936824"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "47"
@@ -234,45 +266,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SwvlTask/Sorter/DetailsViewController.swift"
-            timestampString = "581407353.570902"
+            timestampString = "581438867.93717"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "48"
             endingLineNumber = "48"
             landmarkName = "downloadImages()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Array&lt;SwvlTask.Photo&gt;) -&gt; () in SwvlTask.DetailsViewController.downloadImages() -&gt; ()"
-                  moduleName = "SwvlTask"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Lujin/Desktop/New%20folder/SwvlTask-Development/SwvlTask/Sorter/DetailsViewController.swift"
-                  timestampString = "581408692.097545"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "48"
-                  endingLineNumber = "48"
-                  offsetFromSymbolStart = "279">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Array&lt;SwvlTask.Photo&gt;) -&gt; () in SwvlTask.DetailsViewController.downloadImages() -&gt; ()"
-                  moduleName = "SwvlTask"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Lujin/Desktop/New%20folder/SwvlTask-Development/SwvlTask/Sorter/DetailsViewController.swift"
-                  timestampString = "581408692.10186"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "46"
-                  endingLineNumber = "46"
-                  offsetFromSymbolStart = "36">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -282,7 +282,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SwvlTask/Sorter/DetailsViewController.swift"
-            timestampString = "581407353.571273"
+            timestampString = "581438867.93744"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "10"
@@ -297,8 +297,8 @@
                   symbolName = "SwvlTask.DetailsViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; SwvlTask.DetailsViewController"
                   moduleName = "SwvlTask"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Lujin/Desktop/New%20folder/SwvlTask-Development/SwvlTask/Sorter/DetailsViewController.swift"
-                  timestampString = "581408692.112753"
+                  urlString = "file:///Users/Lujin/Downloads/SwvlTask-Development%202/SwvlTask/Sorter/DetailsViewController.swift"
+                  timestampString = "581438868.570116"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -312,13 +312,13 @@
                   symbolName = "SwvlTask.DetailsViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; SwvlTask.DetailsViewController"
                   moduleName = "SwvlTask"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Lujin/Desktop/New%20folder/SwvlTask-Development/SwvlTask/Sorter/DetailsViewController.swift"
-                  timestampString = "581408692.1167279"
+                  urlString = "file:///Users/Lujin/Downloads/SwvlTask-Development%202/SwvlTask/Sorter/DetailsViewController.swift"
+                  timestampString = "581438868.5748349"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "11"
-                  endingLineNumber = "11"
-                  offsetFromSymbolStart = "57">
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "59">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -327,8 +327,8 @@
                   symbolName = "SwvlTask.DetailsViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;SwvlTask.DetailsViewController&gt;"
                   moduleName = "SwvlTask"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Lujin/Desktop/New%20folder/SwvlTask-Development/SwvlTask/Sorter/DetailsViewController.swift"
-                  timestampString = "581408692.120593"
+                  urlString = "file:///Users/Lujin/Downloads/SwvlTask-Development%202/SwvlTask/Sorter/DetailsViewController.swift"
+                  timestampString = "581438868.582505"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -342,13 +342,13 @@
                   symbolName = "SwvlTask.DetailsViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;SwvlTask.DetailsViewController&gt;"
                   moduleName = "SwvlTask"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Lujin/Desktop/New%20folder/SwvlTask-Development/SwvlTask/Sorter/DetailsViewController.swift"
-                  timestampString = "581408692.124781"
+                  urlString = "file:///Users/Lujin/Downloads/SwvlTask-Development%202/SwvlTask/Sorter/DetailsViewController.swift"
+                  timestampString = "581438868.593407"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "11"
-                  endingLineNumber = "11"
-                  offsetFromSymbolStart = "50">
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "52">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -357,8 +357,8 @@
                   symbolName = "SwvlTask.DetailsViewController.__deallocating_deinit"
                   moduleName = "SwvlTask"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Lujin/Desktop/New%20folder/SwvlTask-Development/SwvlTask/Sorter/DetailsViewController.swift"
-                  timestampString = "581408692.128377"
+                  urlString = "file:///Users/Lujin/Downloads/SwvlTask-Development%202/SwvlTask/Sorter/DetailsViewController.swift"
+                  timestampString = "581438868.597041"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "10"
@@ -375,7 +375,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SwvlTask/Sorter/DetailsViewController.swift"
-            timestampString = "581407353.571619"
+            timestampString = "581438867.937736"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "15"
@@ -387,31 +387,31 @@
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "SwvlTask.DetailsViewController.photos.getter : Swift.Optional&lt;Swift.Array&lt;SwvlTask.Photo&gt;&gt;"
+                  symbolName = "SwvlTask.DetailsViewController.movieTitleLbl.getter : weak Swift.Optional&lt;__C.UILabel&gt;"
                   moduleName = "SwvlTask"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Lujin/Desktop/New%20folder/SwvlTask-Development/SwvlTask/Sorter/DetailsViewController.swift"
-                  timestampString = "581408692.144779"
+                  urlString = "file:///Users/Lujin/Downloads/SwvlTask-Development%202/SwvlTask/Sorter/DetailsViewController.swift"
+                  timestampString = "581438868.617337"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "15"
                   endingLineNumber = "15"
-                  offsetFromSymbolStart = "20">
+                  offsetFromSymbolStart = "86">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "SwvlTask.DetailsViewController.photos.setter : Swift.Optional&lt;Swift.Array&lt;SwvlTask.Photo&gt;&gt;"
+                  symbolName = "SwvlTask.DetailsViewController.movieTitleLbl.setter : weak Swift.Optional&lt;__C.UILabel&gt;"
                   moduleName = "SwvlTask"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Lujin/Desktop/New%20folder/SwvlTask-Development/SwvlTask/Sorter/DetailsViewController.swift"
-                  timestampString = "581408692.148563"
+                  urlString = "file:///Users/Lujin/Downloads/SwvlTask-Development%202/SwvlTask/Sorter/DetailsViewController.swift"
+                  timestampString = "581438868.621336"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "15"
                   endingLineNumber = "15"
-                  offsetFromSymbolStart = "128">
+                  offsetFromSymbolStart = "106">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -420,13 +420,13 @@
                   symbolName = "SwvlTask.DetailsViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; SwvlTask.DetailsViewController"
                   moduleName = "SwvlTask"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Lujin/Desktop/New%20folder/SwvlTask-Development/SwvlTask/Sorter/DetailsViewController.swift"
-                  timestampString = "581408692.152048"
+                  urlString = "file:///Users/Lujin/Downloads/SwvlTask-Development%202/SwvlTask/Sorter/DetailsViewController.swift"
+                  timestampString = "581438868.6258841"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "15"
                   endingLineNumber = "15"
-                  offsetFromSymbolStart = "486">
+                  offsetFromSymbolStart = "389">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -435,13 +435,13 @@
                   symbolName = "SwvlTask.DetailsViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;SwvlTask.DetailsViewController&gt;"
                   moduleName = "SwvlTask"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Lujin/Desktop/New%20folder/SwvlTask-Development/SwvlTask/Sorter/DetailsViewController.swift"
-                  timestampString = "581408692.156091"
+                  urlString = "file:///Users/Lujin/Downloads/SwvlTask-Development%202/SwvlTask/Sorter/DetailsViewController.swift"
+                  timestampString = "581438868.630087"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "15"
                   endingLineNumber = "15"
-                  offsetFromSymbolStart = "457">
+                  offsetFromSymbolStart = "357">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -453,13 +453,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SwvlTask/Sorter/DetailsViewController.swift"
-            timestampString = "581407353.571913"
+            timestampString = "581438867.937947"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "29"
             endingLineNumber = "29"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
+            landmarkName = "DetailsViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -517,12 +517,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SwvlTask/Sorter/DetailsViewController.swift"
-            timestampString = "581407353.572435"
+            timestampString = "581438867.938805"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "44"
             endingLineNumber = "44"
-            landmarkName = "downloadImages()"
+            landmarkName = "setupDesign()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

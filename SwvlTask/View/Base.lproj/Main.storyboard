@@ -13,7 +13,7 @@
         <!--Home View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="SwvlTask" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" id="BYZ-38-t0r" customClass="HomeViewController" customModule="SwvlTask" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -132,8 +132,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tdX-jQ-Ia0">
-                                <rect key="frame" x="161.5" y="79.5" width="52.5" height="24"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tdX-jQ-Ia0">
+                                <rect key="frame" x="19" y="79.5" width="337.5" height="24"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
                                 <color key="textColor" red="0.35498011112213135" green="0.71007698774337769" blue="0.80518287420272827" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -203,6 +203,7 @@
                         <constraints>
                             <constraint firstItem="sfM-GC-Hi2" firstAttribute="centerX" secondItem="haZ-Vu-b6p" secondAttribute="centerX" multiplier="1.8" id="7lm-a1-CEj"/>
                             <constraint firstItem="ReM-yn-SQ0" firstAttribute="centerX" secondItem="haZ-Vu-b6p" secondAttribute="centerX" id="7n3-TJ-94n"/>
+                            <constraint firstItem="tdX-jQ-Ia0" firstAttribute="width" secondItem="iJW-qS-ce8" secondAttribute="width" multiplier="0.9" id="ARX-Fs-JKW"/>
                             <constraint firstItem="kwf-dK-kFa" firstAttribute="top" secondItem="pQd-EW-fNZ" secondAttribute="bottom" constant="100" id="AhX-yb-02Y"/>
                             <constraint firstItem="ReM-yn-SQ0" firstAttribute="width" secondItem="iJW-qS-ce8" secondAttribute="width" id="ED2-ze-JTa"/>
                             <constraint firstItem="pQd-EW-fNZ" firstAttribute="centerX" secondItem="haZ-Vu-b6p" secondAttribute="centerX" multiplier="0.2" id="LLF-3f-HB3"/>
