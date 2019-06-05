@@ -23,10 +23,11 @@ class DetailsViewModel {
                 decoder.dateDecodingStrategy = .iso8601
                 let photosJson = try! decoder.decode(AllPhotos.self, from: data)
                 
-                let movies = photosJson.photos?.photo
+                if let movies = photosJson.photos?.photo
+                {
                 
-                completion(movies!)
-               
+                completion(movies)
+                }
                 
                 }.resume()
         }

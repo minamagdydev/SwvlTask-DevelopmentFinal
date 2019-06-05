@@ -1,23 +1,23 @@
 //
-//  HomeViewControllerTest.swift
+//  DetailsViewControllerTest.swift
 //  SwvlTaskTests
 //
-//  Created by minamagdy  on 6/5/19.
+//  Created by lujin sherif  on 6/5/19.
 //  Copyright © 2019 minamagdy. All rights reserved.
 //
 
 import XCTest
 @testable import SwvlTask
-class HomeViewControllerTest: XCTestCase {
-    var sut: HomeViewController!
+class DetailsViewControllerTest: XCTestCase {
+    var sut: DetailsViewController!
     
     override func setUp() {
-        super.setUp()
+        
         
         let storyboard = UIStoryboard(name: StoryboardNames.main, bundle: nil)
         let viewController = storyboard.instantiateViewController(
-            withIdentifier: ViewControllerIds.HomeViewController)
-        sut = (viewController as! HomeViewController)
+            withIdentifier: ViewControllerIds.DetailsViewController)
+        sut = (viewController as! DetailsViewController)
         
         _ = sut.view
     }
@@ -32,17 +32,20 @@ class HomeViewControllerTest: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 
-   
+    func testPerformanceExample() {
+        // This is an example of a performance test case.
+        self.measure {
+            // Put the code you want to measure the time of here.
+        }
+    }
     func test_TableView_AfterViewDidLoad_IsNotNil() {
-        XCTAssertNotNil(sut.moviesListTableView)
+        XCTAssertNotNil(sut.movieImageCollectionView)
     }
     
     func test_LoadingView_SetsTableViewDataSource() {
-        XCTAssertTrue(sut.moviesListTableView.dataSource is HomeViewController)
+        XCTAssertTrue(sut.movieImageCollectionView.dataSource is DetailsViewController)
     }
     
-    func test_LoadingView_SetsTableViewDelegate() {
-        XCTAssertTrue(sut.moviesListTableView.delegate is HomeViewController)
-    }
+    
 
 }

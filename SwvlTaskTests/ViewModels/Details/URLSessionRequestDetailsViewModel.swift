@@ -43,7 +43,7 @@ class URLSessionRequestDetailsViewModel: XCTestCase {
         let urlStr = "https://reqres.in/api"
 
         let url = URL(string:"https://reqres.in/api")
-        let subject = viewModel?.getImages(urlSession: session, url: urlStr, completion: {[weak self]images in
+        _ = viewModel?.getImages(urlSession: session, url: urlStr, completion: { images in
             print ("")
         
     } )
