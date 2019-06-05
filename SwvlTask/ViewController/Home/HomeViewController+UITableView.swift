@@ -14,7 +14,7 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-          let cell = tableView.dequeueReusableCell(withIdentifier: "MovieCell") as? MovieCell
+          let cell = tableView.dequeueReusableCell(withIdentifier: ViewControllerIds.MovieCell) as? MovieCell
         
         cell?.movieTitle.text = searchArray![indexPath.row].title
         if let year = searchArray![indexPath.row].year {
@@ -33,8 +33,8 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
         return hight
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-        let newViewController = storyBoard.instantiateViewController(withIdentifier: "DetailsViewController") as! DetailsViewController
+        let storyBoard: UIStoryboard = UIStoryboard(name: StoryboardNames.main, bundle: nil)
+        let newViewController = storyBoard.instantiateViewController(withIdentifier: ViewControllerIds.DetailsViewController) as! DetailsViewController
         if let rating = searchArray![indexPath.row].rating {
             newViewController.ratingVar = String(rating)
            

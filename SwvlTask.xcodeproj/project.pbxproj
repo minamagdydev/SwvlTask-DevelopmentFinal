@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		74FB3A6022A526730034914A /* SWVLFileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FB3A5F22A526730034914A /* SWVLFileReader.swift */; };
 		74FB3A6222A537300034914A /* HomeViewController+SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FB3A6122A537300034914A /* HomeViewController+SearchBar.swift */; };
+		791E069222A7A9C5007797AF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791E069122A7A9C5007797AF /* Constants.swift */; };
 		797CBE7022A420C200482019 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797CBE6F22A420C200482019 /* AppDelegate.swift */; };
 		797CBE7222A420C200482019 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797CBE7122A420C200482019 /* HomeViewController.swift */; };
 		797CBE7522A420C200482019 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797CBE7322A420C200482019 /* Main.storyboard */; };
@@ -64,6 +65,7 @@
 		2BF75D697787DF30B66EDF1C /* Pods-SwvlTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwvlTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwvlTask/Pods-SwvlTask.debug.xcconfig"; sourceTree = "<group>"; };
 		74FB3A5F22A526730034914A /* SWVLFileReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWVLFileReader.swift; sourceTree = "<group>"; };
 		74FB3A6122A537300034914A /* HomeViewController+SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+SearchBar.swift"; sourceTree = "<group>"; };
+		791E069122A7A9C5007797AF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		797CBE6C22A420C200482019 /* SwvlTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwvlTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		797CBE6F22A420C200482019 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		797CBE7122A420C200482019 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -355,6 +357,7 @@
 			isa = PBXGroup;
 			children = (
 				79E995E322A6BDBF0034FFF9 /* Extensions.swift */,
+				791E069122A7A9C5007797AF /* Constants.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -574,6 +577,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79E7C6FC22A71A8F008D5156 /* DetailsViewController+CollectionView.swift in Sources */,
+				791E069222A7A9C5007797AF /* Constants.swift in Sources */,
 				797CBE7822A420C200482019 /* SwvlTask.xcdatamodeld in Sources */,
 				79E995E422A6BDBF0034FFF9 /* Extensions.swift in Sources */,
 				797CBEC322A43B5400482019 /* FileReader.swift in Sources */,
