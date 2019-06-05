@@ -1,0 +1,6 @@
+framework module Pods_SwvlTaskTests {
+  umbrella header "Pods-SwvlTaskTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
