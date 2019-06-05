@@ -35,6 +35,14 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
         let newViewController = storyBoard.instantiateViewController(withIdentifier: "DetailsViewController") as! DetailsViewController
+        if let rating = searchArray![indexPath.row].rating {
+            newViewController.ratingVar = String(rating)
+           
+        }
+        if let cast = searchArray![indexPath.row].cast
+        {
+            newViewController.castVar = cast
+        }
         newViewController.movies = searchArray?[indexPath.row]
         self.present(newViewController, animated: true, completion:nil)
     }

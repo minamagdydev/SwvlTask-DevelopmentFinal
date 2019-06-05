@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import SDWebImage
 extension DetailsViewController:UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -15,7 +15,9 @@ extension DetailsViewController:UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "MovieImageCell", for: indexPath) as! MovieImageCell
-        cell.movieImage.downloaded(from: photos?[indexPath.row].url ?? "")//photos?[indexPath.row].url
+        cell.movieImage.sd_imageIndicator = SDWebImageActivityIndicator.grayLarge
+        cell.movieImage.sd_setImage(with: URL(string: (photos?[indexPath.row].url)!), placeholderImage: UIImage(named: "placeholder"))
+       
         return cell
     }
 }

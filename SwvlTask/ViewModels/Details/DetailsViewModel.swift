@@ -10,13 +10,8 @@ import Foundation
 import UIKit
 typealias CompletionHandler = ([Photo]) -> Void
 class DetailsViewModel {
-    
-    
     private var photos: [Photo]?
-  
-    
-    
-    func getMovies (url: String , completion: @escaping CompletionHandler){
+    func getImages(url: String , completion: @escaping CompletionHandler){
         
         let urlStr : String = url.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? ""
         if let PhotoUrl = URL(string: urlStr ){
