@@ -36,11 +36,10 @@ class HomeViewModel {
         }
     }
     
-    func search (movieName: String) -> [Movie]? {
+    func search (movieName: String , movies: [Movie]) -> [Movie]? {
         if sortedMovies == nil {
-            if let _movies = movies {
-             sortedMovies = sorter.sort(array: _movies)
-            }
+            sortedMovies = sorter.sort(array: movies)
+            
         }
         var resultArray = [Movie]()
         var lastYear = -1

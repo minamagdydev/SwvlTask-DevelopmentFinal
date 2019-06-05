@@ -25,14 +25,14 @@ class HomeViewModelTests: XCTestCase {
         fileReaderMock = SWVLFileReaderMock()
         sorter = swvlSorter()
         homeViewModel = HomeViewModel(fileReader: fileReaderMock, sorter: sorter)
-        movie1 = Movie(title: "mina", year: nil, cast: nil, genres: nil, rating: nil)
-        movie2 = Movie(title: "magdy", year: nil, cast: nil, genres: nil, rating: nil)
-        movie3 = Movie(title: "mohamed", year: nil, cast: nil, genres: nil, rating: nil)
-        movie4 = Movie(title: "amr", year: nil, cast: nil, genres: nil, rating: nil)
-        movie5 = Movie(title: "salah", year: nil, cast: nil, genres: nil, rating: nil)
+        movie1 = Movie(title: "mina", year: 10, cast: nil, genres: nil, rating: nil)
+        movie2 = Movie(title: "magdy", year: 7, cast: nil, genres: nil, rating: nil)
+        movie3 = Movie(title: "mohamed", year: 3, cast: nil, genres: nil, rating: nil)
+        movie4 = Movie(title: "amr", year: 5, cast: nil, genres: nil, rating: nil)
+        movie5 = Movie(title: "salah", year: 20, cast: nil, genres: nil, rating: nil)
         
         moviesArray = [movie1,movie2,movie3,movie4,movie5]
-        afterSearchArray = [movie1,movie2,movie3,movie4]
+        afterSearchArray = [movie1,movie2,movie4,movie3]
         
     }
 
@@ -108,7 +108,7 @@ class HomeViewModelTests: XCTestCase {
     }
    // MARK: - need edite
     func test_search_findCorrectly() {
-        let resultArray = homeViewModel.search(movieName: searchedCharachter)
+        let resultArray = homeViewModel.search(movieName: searchedCharachter, movies: moviesArray)
         XCTAssertEqual(afterSearchArray ,  resultArray)
     }
     

@@ -17,7 +17,7 @@ extension HomeViewController:  UISearchBarDelegate {
             searchArray = movies!
             self.moviesListTableView.reloadData()
         }else {
-            searchArray = viewModel.search(movieName: searchText)
+            searchArray = viewModel.search(movieName: searchText, movies: movies!)
             moviesListTableView.reloadData()
         }
     }
