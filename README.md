@@ -1,7 +1,7 @@
 **SWVL Movies Task**	
 
 Project written in Swift 4 code built using the MVVM design pattern
-when search in first screen the list sorted by year and each year hold at most the top rated 5 movies  . (i forgot to put it in sections)
+, When search in the list , it sorted by year and each year hold at most the top rated 5 movies  . (i forgot to put it in sections)
 
 
 
